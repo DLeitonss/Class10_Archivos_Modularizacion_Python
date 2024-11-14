@@ -3,6 +3,7 @@ def media(datos):
     return sum(datos) / len (datos)
 
 def mediana(datos):
+    "Calcula la mediana de una lista de datos"
     datos_ord = sorted(datos)
     n = len(datos_ord)
     med = n // 2 
